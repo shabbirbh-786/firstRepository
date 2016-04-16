@@ -18,7 +18,8 @@ sap.ui.controller("uitable_bind.bindTable", {
 		var oModel = new sap.ui.model.json.JSONModel();              
 	     oModel.setData({modelData: vData}); 
 	     var oTable = this.byId("skillsTable");  
-	     oTable.setModel(oModel);                                                                                  
+	     oTable.setModel(oModel);  
+	     alert("in new branch only");
 	    
 	},
 
